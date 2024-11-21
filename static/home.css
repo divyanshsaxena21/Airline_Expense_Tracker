@@ -1,0 +1,107 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Center the content */
+div {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    font-size: 36px;
+    color: #2C3E50;
+    margin-bottom: 30px;
+}
+
+/* Flash message container */
+.flash-messages {
+    margin-top: 20px;
+}
+
+/* Individual flash message styling */
+.flash-message {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Success message */
+.flash-message.success {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Error message */
+.flash-message.error {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Warning message */
+.flash-message.warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+/* Info message */
+.flash-message.info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+
+/* Header styling */
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2C3E50;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #3498db;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
