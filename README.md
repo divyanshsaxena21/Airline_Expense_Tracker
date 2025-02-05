@@ -1,4 +1,4 @@
-# Flask Course - Project
+# Airline Expense Tracker
 
 live link - https://flask-course-ml-project-peti.onrender.com
 
